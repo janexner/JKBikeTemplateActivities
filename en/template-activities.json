@@ -1,534 +1,535 @@
 {
-  "templateActivities": [
-    {
-      "rideLevel": {
-        "level": 1,
-        "name": "Quick ride"
+  "bikes":[
+      {
+          "name":"Taiga",
+          "buildDate":"2020-06-01",
+          "mileage":6395,
+          "lastUsedDate":"2025-02-18",
+          "isElectric":false,
+          "uid":1
       },
-      "title": "Battery properly installed",
-      "description": "Make sure that battery and cover are securely mounted and locked",
-      "isEBikeSpecific": true,
-      "uid": 9
-    },
-    {
-      "rideLevel": {
-        "level": 1,
-        "name": "Quick ride"
+      {
+          "name":"Turbo Vado",
+          "buildDate":"2023-05-20",
+          "mileage":6500,
+          "lastUsedDate":"2025-02-18",
+          "isElectric":true,
+          "uid":2
       },
-      "title": "Brake knock test",
-      "description": "Pull both brakes and rock bike back and forth to test for knocks",
-      "isEBikeSpecific": false,
-      "uid": 2
-    },
-    {
-      "rideLevel": {
-        "level": 1,
-        "name": "Quick ride"
+      {
+          "name":"Evolink",
+          "buildDate":"2022-09-09",
+          "mileage":1388,
+          "lastUsedDate":"2025-01-16",
+          "isElectric":false,
+          "uid":3
+      }
+  ],
+  "activities":[
+      {
+          "title":"Battery properly installed",
+          "description":"Make sure that battery and cover are securely mounted and locked",
+          "isCompleted":false,
+          "isEBikeSpecific":true,
+          "rideLevel":1,
+          "rideUid":1,
+          "createdInstant":"2025-02-18T21:36:52.680Z",
+          "uid":12
       },
-      "title": "Chain lubed",
-      "description": "Check that chain is lubed, and re-apply if needed",
-      "isEBikeSpecific": false,
-      "uid": 6
-    },
-    {
-      "rideLevel": {
-        "level": 1,
-        "name": "Quick ride"
+      {
+          "title":"Brake knock test",
+          "description":"Pull both brakes and rock bike back and forth to test for knocks",
+          "isCompleted":false,
+          "isEBikeSpecific":false,
+          "rideLevel":1,
+          "rideUid":1,
+          "createdInstant":"2025-02-18T21:36:52.623Z",
+          "uid":5
       },
-      "title": "Charge battery",
-      "description": "Check battery level and charge if needed",
-      "isEBikeSpecific": true,
-      "uid": 8
-    },
-    {
-      "rideLevel": {
-        "level": 1,
-        "name": "Quick ride"
+      {
+          "title":"Buy bigger basket",
+          "description":"Buy basket for rear that can take carry-on baggage",
+          "isCompleted":false,
+          "bikeUid":2,
+          "isEBikeSpecific":false,
+          "rideLevel":2,
+          "createdInstant":"2025-02-18T21:36:09.744Z",
+          "uid":3
       },
-      "title": "Check axles",
-      "description": "Check that both axles are properly installed and torqued",
-      "isEBikeSpecific": false,
-      "uid": 3
-    },
-    {
-      "rideLevel": {
-        "level": 1,
-        "name": "Quick ride"
+      {
+          "title":"Chain lubed",
+          "description":"Check that chain is lubed, and re-apply if needed",
+          "isCompleted":false,
+          "isEBikeSpecific":false,
+          "rideLevel":1,
+          "rideUid":1,
+          "createdInstant":"2025-02-18T21:36:52.649Z",
+          "uid":9
       },
-      "title": "Check dropper post",
-      "description": "Check that dropper post moves up, down, and stays where it should",
-      "isEBikeSpecific": false,
-      "uid": 5
-    },
-    {
-      "rideLevel": {
-        "level": 1,
-        "name": "Quick ride"
+      {
+          "title":"Charge battery",
+          "description":"Check battery level and charge if needed",
+          "isCompleted":false,
+          "isEBikeSpecific":true,
+          "rideLevel":1,
+          "rideUid":1,
+          "createdInstant":"2025-02-18T21:36:52.672Z",
+          "uid":11
       },
-      "title": "Check gears",
-      "description": "Check that gears are indexed properly and all gears can be used",
-      "isEBikeSpecific": false,
-      "uid": 7
-    },
-    {
-      "rideLevel": {
-        "level": 1,
-        "name": "Quick ride"
+      {
+          "title":"Check axles",
+          "description":"Check that both axles are properly installed and torqued",
+          "isCompleted":false,
+          "isEBikeSpecific":false,
+          "rideLevel":1,
+          "rideUid":1,
+          "createdInstant":"2025-02-18T21:36:52.627Z",
+          "uid":6
       },
-      "title": "Check rear derailleur",
-      "description": "Check that the rear mech is securely attached and not bent or damaged",
-      "isEBikeSpecific": false,
-      "uid": 4
-    },
-    {
-      "rideLevel": {
-        "level": 1,
-        "name": "Quick ride"
+      {
+          "title":"Check dropper post",
+          "description":"Check that dropper post moves up, down, and stays where it should",
+          "isCompleted":false,
+          "isEBikeSpecific":false,
+          "rideLevel":1,
+          "rideUid":1,
+          "createdInstant":"2025-02-18T21:36:52.640Z",
+          "uid":8
       },
-      "title": "Check/fix tyre pressure",
-      "description": "Check pressure on both tyres, and inflate if necessary.",
-      "isEBikeSpecific": false,
-      "uid": 1
-    },
-    {
-      "rideLevel": {
-        "level": 1,
-        "name": "Quick ride"
+      {
+          "title":"Check gears",
+          "description":"Check that gears are indexed properly and all gears can be used",
+          "isCompleted":false,
+          "isEBikeSpecific":false,
+          "rideLevel":1,
+          "rideUid":1,
+          "createdInstant":"2025-02-18T21:36:52.666Z",
+          "uid":10
       },
-      "title": "Electronics OK",
-      "description": "Check bike computer works, and all ride levels function",
-      "isEBikeSpecific": true,
-      "uid": 10
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "title":"Check rear derailleur",
+          "description":"Check that the rear mech is securely attached and not bent or damaged",
+          "isCompleted":false,
+          "isEBikeSpecific":false,
+          "rideLevel":1,
+          "rideUid":1,
+          "createdInstant":"2025-02-18T21:36:52.638Z",
+          "uid":7
       },
-      "title": "Charge extra battery",
-      "description": "Extra battery charged and ready",
-      "isEBikeSpecific": true,
-      "uid": 37
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "title":"Check/fix tyre pressure",
+          "description":"Check pressure on both tyres, and inflate if necessary.",
+          "isCompleted":false,
+          "isEBikeSpecific":false,
+          "rideLevel":1,
+          "rideUid":1,
+          "createdInstant":"2025-02-18T21:36:52.619Z",
+          "uid":4
       },
-      "title": "Check bottom bracket",
-      "description": "Turn pedals with bike on bike stand ideally with chain removed, listen and feel for grinding",
-      "isEBikeSpecific": false,
-      "uid": 17
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "title":"Electronics OK",
+          "description":"Check bike computer works, and all ride levels function",
+          "isCompleted":false,
+          "isEBikeSpecific":true,
+          "rideLevel":1,
+          "rideUid":1,
+          "createdInstant":"2025-02-18T21:36:52.686Z",
+          "uid":13
       },
-      "title": "Check brake pads",
-      "description": "Check brake pads with wheel out, all round the pads, as they may wear unevenly and look OK from top but a disaster underneath",
-      "isEBikeSpecific": false,
-      "uid": 20
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "title":"Replace BB",
+          "description":"Replace BB when it is wrecked",
+          "isCompleted":false,
+          "bikeUid":1,
+          "isEBikeSpecific":false,
+          "rideLevel":3,
+          "createdInstant":"2025-02-18T21:36:09.625Z",
+          "dueDate":"2025-06-30",
+          "uid":2
       },
-      "title": "Check brake rotor securely attached",
-      "description": "Check that disc bolts or lockring are properly torqued",
-      "isEBikeSpecific": false,
-      "uid": 19
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "title":"Replace Lou",
+          "description":"Replace worn rear tyre using fatty stripper",
+          "isCompleted":false,
+          "bikeUid":1,
+          "isEBikeSpecific":false,
+          "rideLevel":1,
+          "createdInstant":"2025-02-18T21:36:09.617Z",
+          "dueDate":"2024-11-30",
+          "uid":1
+      }
+  ],
+  "templateActivities":[
+      {
+          "rideLevel":1,
+          "title":"Battery properly installed",
+          "description":"Make sure that battery and cover are securely mounted and locked",
+          "isEBikeSpecific":true,
+          "uid":9
       },
-      "title": "Check chainring",
-      "description": "Chainring bolts or lockring torqued",
-      "isEBikeSpecific": false,
-      "uid": 14
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":1,
+          "title":"Brake knock test",
+          "description":"Pull both brakes and rock bike back and forth to test for knocks",
+          "isEBikeSpecific":false,
+          "uid":2
       },
-      "title": "Check cleats + shoes",
-      "description": "SPD cleats secure in shoes and pedal connection working",
-      "isEBikeSpecific": false,
-      "uid": 13
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":1,
+          "title":"Chain lubed",
+          "description":"Check that chain is lubed, and re-apply if needed",
+          "isEBikeSpecific":false,
+          "uid":6
       },
-      "title": "Check cockpit",
-      "description": "Check that all levers and shifters are secured",
-      "isEBikeSpecific": false,
-      "uid": 26
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":1,
+          "title":"Charge battery",
+          "description":"Check battery level and charge if needed",
+          "isEBikeSpecific":true,
+          "uid":8
       },
-      "title": "Check crank bolts",
-      "description": "Crank bolts torqued",
-      "isEBikeSpecific": false,
-      "uid": 15
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":1,
+          "title":"Check axles",
+          "description":"Check that both axles are properly installed and torqued",
+          "isEBikeSpecific":false,
+          "uid":3
       },
-      "title": "Check crank pre-tensioned (if needed)",
-      "description": "Cranks pre-tensioned (if required by crankset)",
-      "isEBikeSpecific": false,
-      "uid": 16
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":1,
+          "title":"Check dropper post",
+          "description":"Check that dropper post moves up, down, and stays where it should",
+          "isEBikeSpecific":false,
+          "uid":5
       },
-      "title": "Check dropper",
-      "description": "Seatpost works properly (up, down, stays in position)",
-      "isEBikeSpecific": false,
-      "uid": 31
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":1,
+          "title":"Check gears",
+          "description":"Check that gears are indexed properly and all gears can be used",
+          "isEBikeSpecific":false,
+          "uid":7
       },
-      "title": "Check dropper lever",
-      "description": "Dropper lever works smoothly",
-      "isEBikeSpecific": false,
-      "uid": 27
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":1,
+          "title":"Check rear derailleur",
+          "description":"Check that the rear mech is securely attached and not bent or damaged",
+          "isEBikeSpecific":false,
+          "uid":4
       },
-      "title": "Check freehub",
-      "description": "Check that freehub/cassette is working and does not make unusual noises or play",
-      "isEBikeSpecific": false,
-      "uid": 22
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":1,
+          "title":"Check/fix tyre pressure",
+          "description":"Check pressure on both tyres, and inflate if necessary.",
+          "isEBikeSpecific":false,
+          "uid":1
       },
-      "title": "Check headset pre-tension",
-      "description": "Make sure headset is pre-tension and bolt properly torqued. Do this before you check the stem and faceplate.",
-      "isEBikeSpecific": false,
-      "uid": 25
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":1,
+          "title":"Electronics OK",
+          "description":"Check bike computer works, and all ride levels function",
+          "isEBikeSpecific":true,
+          "uid":10
       },
-      "title": "Check motor bolts",
-      "description": "Motor bolts secure",
-      "isEBikeSpecific": true,
-      "uid": 38
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Charge extra battery",
+          "description":"Extra battery charged and ready",
+          "isEBikeSpecific":true,
+          "uid":37
       },
-      "title": "Check pedals",
-      "description": "Pedals secure with no play + pedal pins in place",
-      "isEBikeSpecific": false,
-      "uid": 12
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check bottom bracket",
+          "description":"Turn pedals with bike on bike stand ideally with chain removed, listen and feel for grinding",
+          "isEBikeSpecific":false,
+          "uid":17
       },
-      "title": "Check saddle bolts",
-      "description": "Saddle bolts torqued",
-      "isEBikeSpecific": false,
-      "uid": 29
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check brake pads",
+          "description":"Check brake pads with wheel out, all round the pads, as they may wear unevenly and look OK from top but a disaster underneath",
+          "isEBikeSpecific":false,
+          "uid":20
       },
-      "title": "Check seatpost bolts",
-      "description": "Seatpost bolts torqued",
-      "isEBikeSpecific": false,
-      "uid": 30
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check brake rotor securely attached",
+          "description":"Check that disc bolts or lockring are properly torqued",
+          "isEBikeSpecific":false,
+          "uid":19
       },
-      "title": "Check spokes",
-      "description": "Check that spoke tension is similar around the wheels",
-      "isEBikeSpecific": false,
-      "uid": 23
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check chainring",
+          "description":"Chainring bolts or lockring torqued",
+          "isEBikeSpecific":false,
+          "uid":14
       },
-      "title": "Check stem and faceplate bolts",
-      "description": "Make sure stem and faceplate bolts are properly torqued. Do this after headset pre-tension check.",
-      "isEBikeSpecific": false,
-      "uid": 24
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check cleats + shoes",
+          "description":"SPD cleats secure in shoes and pedal connection working",
+          "isEBikeSpecific":false,
+          "uid":13
       },
-      "title": "Check suspension is clean",
-      "description": "Not weeping oil from anywhere",
-      "isEBikeSpecific": false,
-      "uid": 33
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check cockpit",
+          "description":"Check that all levers and shifters are secured",
+          "isEBikeSpecific":false,
+          "uid":26
       },
-      "title": "Check suspension is quiet",
-      "description": "No squelching sounds",
-      "isEBikeSpecific": false,
-      "uid": 34
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check crank bolts",
+          "description":"Crank bolts torqued",
+          "isEBikeSpecific":false,
+          "uid":15
       },
-      "title": "Check suspension works",
-      "description": "moves freely and correctly pressured",
-      "isEBikeSpecific": false,
-      "uid": 32
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check crank pre-tensioned (if needed)",
+          "description":"Cranks pre-tensioned (if required by crankset)",
+          "isEBikeSpecific":false,
+          "uid":16
       },
-      "title": "Check tyre sealant",
-      "description": "Shake wheel and listen for liquid. If not, refill sealant",
-      "isEBikeSpecific": false,
-      "uid": 18
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check dropper",
+          "description":"Seatpost works properly (up, down, stays in position)",
+          "isEBikeSpecific":false,
+          "uid":31
       },
-      "title": "Check wheel bearings",
-      "description": "Do the wheels rotate freely, without grinding noises",
-      "isEBikeSpecific": false,
-      "uid": 21
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check dropper lever",
+          "description":"Dropper lever works smoothly",
+          "isEBikeSpecific":false,
+          "uid":27
       },
-      "title": "Check whether brakes need bleeding",
-      "description": "Check brakes don't need to be ‘pumped’ to stop them pulling to the bars",
-      "isEBikeSpecific": false,
-      "uid": 28
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check freehub",
+          "description":"Check that freehub/cassette is working and does not make unusual noises or play",
+          "isEBikeSpecific":false,
+          "uid":22
       },
-      "title": "Lubricate suspension",
-      "description": "Lubricate stanchions",
-      "isEBikeSpecific": false,
-      "uid": 35
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check headset pre-tension",
+          "description":"Make sure headset is pre-tension and bolt properly torqued. Do this before you check the stem and faceplate.",
+          "isEBikeSpecific":false,
+          "uid":25
       },
-      "title": "No noises from drive",
-      "description": "Drive is smooth with no noises or clunks or grinding",
-      "isEBikeSpecific": true,
-      "uid": 36
-    },
-    {
-      "rideLevel": {
-        "level": 2,
-        "name": "Day out"
+      {
+          "rideLevel":2,
+          "title":"Check motor bolts",
+          "description":"Motor bolts secure",
+          "isEBikeSpecific":true,
+          "uid":38
       },
-      "title": "Shifter / cable work smoothly",
-      "description": "Check that shifter and cable work smoothly, replace if needed",
-      "isEBikeSpecific": false,
-      "uid": 11
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check pedals",
+          "description":"Pedals secure with no play + pedal pins in place",
+          "isEBikeSpecific":false,
+          "uid":12
       },
-      "title": "BB bearings smooth",
-      "description": "BB bearings smooth and greased",
-      "isEBikeSpecific": false,
-      "uid": 45
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check saddle bolts",
+          "description":"Saddle bolts torqued",
+          "isEBikeSpecific":false,
+          "uid":29
       },
-      "title": "Bleed brakes",
-      "description": "Bleed brakes",
-      "isEBikeSpecific": false,
-      "uid": 48
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check seatpost bolts",
+          "description":"Seatpost bolts torqued",
+          "isEBikeSpecific":false,
+          "uid":30
       },
-      "title": "Chain is not too worn",
-      "description": "Chain not beyond .5 (if its, replace whole drivetrain before holiday - chain, cassette, chainring)",
-      "isEBikeSpecific": false,
-      "uid": 46
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check spokes",
+          "description":"Check that spoke tension is similar around the wheels",
+          "isEBikeSpecific":false,
+          "uid":23
       },
-      "title": "Check electric cables",
-      "description": "Electric cables all with smooth run and no kinks",
-      "isEBikeSpecific": true,
-      "uid": 53
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check stem and faceplate bolts",
+          "description":"Make sure stem and faceplate bolts are properly torqued. Do this after headset pre-tension check.",
+          "isEBikeSpecific":false,
+          "uid":24
       },
-      "title": "Consider rebuilding motor/bearings",
-      "description": "If out of warranty, consider rebuilding motor/bearings from places like ebike motor centre",
-      "isEBikeSpecific": true,
-      "uid": 51
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check suspension is clean",
+          "description":"Not weeping oil from anywhere",
+          "isEBikeSpecific":false,
+          "uid":33
       },
-      "title": "Grips OK",
-      "description": "Grips no over worn",
-      "isEBikeSpecific": false,
-      "uid": 42
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check suspension is quiet",
+          "description":"No squelching sounds",
+          "isEBikeSpecific":false,
+          "uid":34
       },
-      "title": "Headset bearings smooth",
-      "description": "Headset bearings smooth and greased",
-      "isEBikeSpecific": false,
-      "uid": 44
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check suspension works",
+          "description":"moves freely and correctly pressured",
+          "isEBikeSpecific":false,
+          "uid":32
       },
-      "title": "Lube caliper pistons",
-      "description": "Lube caliper pistons",
-      "isEBikeSpecific": false,
-      "uid": 49
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check tyre sealant",
+          "description":"Shake wheel and listen for liquid. If not, refill sealant",
+          "isEBikeSpecific":false,
+          "uid":18
       },
-      "title": "Pivot bearings smooth",
-      "description": "Pivot bearings smooth and travel freely, and greased",
-      "isEBikeSpecific": false,
-      "uid": 43
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check wheel bearings",
+          "description":"Do the wheels rotate freely, without grinding noises",
+          "isEBikeSpecific":false,
+          "uid":21
       },
-      "title": "Rims are fine",
-      "description": "Check rims for cracks or bad dents - if has, replace before holiday",
-      "isEBikeSpecific": false,
-      "uid": 40
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Check whether brakes need bleeding",
+          "description":"Check brakes don't need to be ‘pumped’ to stop them pulling to the bars",
+          "isEBikeSpecific":false,
+          "uid":28
       },
-      "title": "Service Suspension",
-      "description": "Suspension serviced (could be just a lowers/air can service, but better a full rebuild from reputable source e.g. TFT, J-tech, silverfish (fox) etc)",
-      "isEBikeSpecific": false,
-      "uid": 47
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Lubricate suspension",
+          "description":"Lubricate stanchions",
+          "isEBikeSpecific":false,
+          "uid":35
       },
-      "title": "Take extra battery",
-      "description": "Extra battery (or does currently battery have good enough condition for big days)",
-      "isEBikeSpecific": true,
-      "uid": 52
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"No noises from drive",
+          "description":"Drive is smooth with no noises or clunks or grinding",
+          "isEBikeSpecific":true,
+          "uid":36
       },
-      "title": "Tyres OK",
-      "description": "Tyres not over worn or with knobs missing",
-      "isEBikeSpecific": false,
-      "uid": 41
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":2,
+          "title":"Shifter / cable work smoothly",
+          "description":"Check that shifter and cable work smoothly, replace if needed",
+          "isEBikeSpecific":false,
+          "uid":11
       },
-      "title": "Use warranty now",
-      "description": "Issues worth warrantying before holiday?",
-      "isEBikeSpecific": true,
-      "uid": 50
-    },
-    {
-      "rideLevel": {
-        "level": 3,
-        "name": "Holidays"
+      {
+          "rideLevel":3,
+          "title":"BB bearings smooth",
+          "description":"BB bearings smooth and greased",
+          "isEBikeSpecific":false,
+          "uid":45
       },
-      "title": "Wheel bearings rotate smoothly",
-      "description": "Check whether wheel bearings are turning smoothly, replace if needed",
-      "isEBikeSpecific": false,
-      "uid": 39
-    }
+      {
+          "rideLevel":3,
+          "title":"Bleed brakes",
+          "description":"Bleed brakes",
+          "isEBikeSpecific":false,
+          "uid":48
+      },
+      {
+          "rideLevel":3,
+          "title":"Chain is not too worn",
+          "description":"Chain not beyond .5 (if its, replace whole drivetrain before holiday - chain, cassette, chainring)",
+          "isEBikeSpecific":false,
+          "uid":46
+      },
+      {
+          "rideLevel":3,
+          "title":"Check electric cables",
+          "description":"Electric cables all with smooth run and no kinks",
+          "isEBikeSpecific":true,
+          "uid":53
+      },
+      {
+          "rideLevel":3,
+          "title":"Consider rebuilding motor/bearings",
+          "description":"If out of warranty, consider rebuilding motor/bearings from places like ebike motor centre",
+          "isEBikeSpecific":true,
+          "uid":51
+      },
+      {
+          "rideLevel":3,
+          "title":"Grips OK",
+          "description":"Grips no over worn",
+          "isEBikeSpecific":false,
+          "uid":42
+      },
+      {
+          "rideLevel":3,
+          "title":"Headset bearings smooth",
+          "description":"Headset bearings smooth and greased",
+          "isEBikeSpecific":false,
+          "uid":44
+      },
+      {
+          "rideLevel":3,
+          "title":"Lube caliper pistons",
+          "description":"Lube caliper pistons",
+          "isEBikeSpecific":false,
+          "uid":49
+      },
+      {
+          "rideLevel":3,
+          "title":"Pivot bearings smooth",
+          "description":"Pivot bearings smooth and travel freely, and greased",
+          "isEBikeSpecific":false,
+          "uid":43
+      },
+      {
+          "rideLevel":3,
+          "title":"Rims are fine",
+          "description":"Check rims for cracks or bad dents - if has, replace before holiday",
+          "isEBikeSpecific":false,
+          "uid":40
+      },
+      {
+          "rideLevel":3,
+          "title":"Service Suspension",
+          "description":"Suspension serviced (could be just a lowers/air can service, but better a full rebuild from reputable source e.g. TFT, J-tech, silverfish (fox) etc)",
+          "isEBikeSpecific":false,
+          "uid":47
+      },
+      {
+          "rideLevel":3,
+          "title":"Take extra battery",
+          "description":"Extra battery (or does currently battery have good enough condition for big days)",
+          "isEBikeSpecific":true,
+          "uid":52
+      },
+      {
+          "rideLevel":3,
+          "title":"Tyres OK",
+          "description":"Tyres not over worn or with knobs missing",
+          "isEBikeSpecific":false,
+          "uid":41
+      },
+      {
+          "rideLevel":3,
+          "title":"Use warranty now",
+          "description":"Issues worth warrantying before holiday?",
+          "isEBikeSpecific":true,
+          "uid":50
+      },
+      {
+          "rideLevel":3,
+          "title":"Wheel bearings rotate smoothly",
+          "description":"Check whether wheel bearings are turning smoothly, replace if needed",
+          "isEBikeSpecific":false,
+          "uid":39
+      }
   ]
 }
