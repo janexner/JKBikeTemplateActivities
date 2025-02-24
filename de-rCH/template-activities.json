@@ -12,7 +12,7 @@
       "isEBikeSpecific": false,
       "uid": 2,
       "title": "Bremsklopf-Test",
-      "description": "Ziehen Sie beide Bremsen und bewegen Sie das Fahrrad hin und her, um auf Klopfen zu testen"
+      "description": "Ziehen Sie beide Bremsen und bewegen Sie das Vélo hin und her, um auf Klopfen zu testen"
     },
     {
       "rideLevel": 1,
@@ -68,7 +68,7 @@
       "isEBikeSpecific": true,
       "uid": 10,
       "title": "Elektronik OK",
-      "description": "Überprüfen Sie, ob der Fahrradcomputer funktioniert und alle Fahrstufen funktionieren"
+      "description": "Überprüfen Sie, ob der Vélocomputer funktioniert und alle Fahrstufen funktionieren"
     },
     {
       "rideLevel": 2,
@@ -82,7 +82,7 @@
       "isEBikeSpecific": false,
       "uid": 17,
       "title": "Tretlager prüfen",
-      "description": "Drehen Sie die Pedale mit dem Fahrrad auf dem Fahrradständer idealerweise mit abgenommener Kette, hören und fühlen Sie nach Schleifen"
+      "description": "Drehen Sie die Pedale mit dem Vélo auf dem Véloständer idealerweise mit abgenommener Kette, hören und fühlen Sie nach Schleifen"
     },
     {
       "rideLevel": 2,
