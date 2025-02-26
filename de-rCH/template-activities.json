@@ -1,200 +1,375 @@
 {
-  "templateActivities": [
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": true,
-      "uid": 9,
-      "title": "Batterie ordnungsgemäß installiert",
-      "description": "Stellen Sie sicher, dass Batterie und Abdeckung sicher montiert und verriegelt sind"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 2,
-      "title": "Bremsklopf-Test",
-      "description": "Ziehen Sie beide Bremsen und bewegen Sie das Vélo hin und her, um auf Klopfen zu testen"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 6,
-      "title": "Kette geschmiert",
-      "description": "Überprüfen Sie, ob die Kette geschmiert ist, und tragen Sie sie bei Bedarf erneut auf"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": true,
-      "uid": 8,
-      "title": "Batterie aufladen",
-      "description": "Überprüfen Sie den Batteriestand und laden Sie ihn bei Bedarf auf"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 3,
-      "title": "Achsen prüfen",
-      "description": "Überprüfen Sie, ob beide Achsen richtig installiert und angezogen sind"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 5,
-      "title": "Teleskopstütze prüfen",
-      "description": "Überprüfen Sie, ob sich die Teleskopstütze nach oben und unten bewegt und dort bleibt, wo sie soll"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 7,
-      "title": "Gänge prüfen",
-      "description": "Überprüfen Sie, ob die Gänge richtig indexiert sind und alle Gänge verwendet werden können"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 4,
-      "title": "Schaltwerk prüfen",
-      "description": "Überprüfen Sie, ob das Schaltwerk sicher befestigt und nicht verbogen oder beschädigt ist"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 1,
-      "title": "Reifendruck prüfen/korrigieren",
-      "description": "Überprüfen Sie den Druck an beiden Reifen und pumpen Sie sie gegebenenfalls auf."
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": true,
-      "uid": 10,
-      "title": "Elektronik OK",
-      "description": "Überprüfen Sie, ob der Vélocomputer funktioniert und alle Fahrstufen funktionieren"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": true,
-      "uid": 37,
-      "title": "Zusatzbatterie aufladen",
-      "description": "Zusatzbatterie geladen und bereit"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 17,
-      "title": "Tretlager prüfen",
-      "description": "Drehen Sie die Pedale mit dem Vélo auf dem Véloständer idealerweise mit abgenommener Kette, hören und fühlen Sie nach Schleifen"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 20,
-      "title": "Bremsbeläge prüfen",
-      "description": "Überprüfen Sie die Bremsbeläge bei ausgebautem Rad, rundum, da sie sich ungleichmäßig abnutzen und von oben gut aussehen können, aber darunter eine Katastrophe sind"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 19,
-      "title": "Bremsscheibe auf festen Sitz prüfen",
-      "description": "Überprüfen Sie, ob die Scheibenschrauben oder der Sicherungsring richtig angezogen sind"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 14,
-      "title": "Kettenblatt prüfen",
-      "description": "Kettenblattschrauben oder Sicherungsring angezogen"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 13,
-      "title": "Klickpedale + Schuhe prüfen",
-      "description": "SPD-Cleats sicher in den Schuhen und Pedalverbindung funktioniert"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 26,
-      "title": "Cockpit prüfen",
-      "description": "Überprüfen Sie, ob alle Hebel und Schalthebel gesichert sind"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 15,
-      "title": "Kurbelschrauben prüfen",
-      "description": "Kurbelschrauben angezogen"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 16,
-      "title": "Kurbelvorspannung prüfen (falls erforderlich)",
-      "description": "Kurbeln vorgespannt (falls vom Kurbelsatz erforderlich)"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 31,
-      "title": "Teleskopstütze prüfen",
-      "description": "Sattelstütze funktioniert einwandfrei (hoch, runter, bleibt in Position)"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 27,
-      "title": "Hebel der Teleskopstütze prüfen",
-      "description": "Der Hebel der Teleskopstütze funktioniert reibungslos"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 22,
-      "title": "Freilauf prüfen",
-      "description": "Überprüfen Sie, ob der Freilauf/die Kassette funktioniert und keine ungewöhnlichen Geräusche oder Spiel macht"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 25,
-      "title": "Steuersatzvorspannung prüfen",
-      "description": "Stellen Sie sicher, dass der Steuersatz vorgespannt und die Schraube richtig angezogen ist. Tun Sie dies, bevor Sie den Vorbau und die Frontplatte überprüfen."
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": true,
-      "uid": 38,
-      "title": "Motorschrauben prüfen",
-      "description": "Motorschrauben festziehen"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 12,
-      "title": "Pedale prüfen",
-      "description": "Pedale sicher ohne Spiel + Pedalstifte vorhanden"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 29,
-      "title": "Sattelschrauben prüfen",
-      "description": "Sattelschrauben angezogen"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 30,
-      "title": "Sattelstützenschrauben prüfen",
-      "description": "Sattelstützenschrauben angezogen"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 23,
-      "title": "Speichen prüfen",
-      "description": "Überprüfen Sie, ob die Speichenspannung an den Rädern ähnlich ist"
-    }
+  "templateActivities":[
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":true,
+          "uid":9,
+          "title":"Batterie ordnungsgemäss eingebaut",
+          "description":"Stellen Sie sicher, dass Batterie und Abdeckung sicher montiert und verriegelt sind"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":2,
+          "title":"Bremsklopfentest",
+          "description":"Ziehen Sie beide Bremsen und bewegen Sie das Vélo hin und her, um es auf Klopfen zu testen"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":6,
+          "title":"Kette geschmiert",
+          "description":"Überprüfen Sie, ob die Kette geschmiert ist, und tragen Sie sie bei Bedarf erneut auf"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":true,
+          "uid":8,
+          "title":"Batterie aufladen",
+          "description":"Überprüfen Sie den Batteriestand und laden Sie ihn bei Bedarf auf"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":3,
+          "title":"Achsen prüfen",
+          "description":"Überprüfen Sie, ob beide Achsen richtig eingebaut und angezogen sind"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":5,
+          "title":"Dropper Post prüfen",
+          "description":"Überprüfen Sie, ob sich die Dropper Post nach oben und unten bewegt und dort bleibt, wo sie soll"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":7,
+          "title":"Gänge prüfen",
+          "description":"Überprüfen Sie, ob die Gänge richtig indiziert sind und alle Gänge verwendet werden können"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":4,
+          "title":"Schaltwerk prüfen",
+          "description":"Überprüfen Sie, ob das Schaltwerk sicher befestigt und nicht verbogen oder beschädigt ist"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":1,
+          "title":"Reifendruck prüfen/korrigieren",
+          "description":"Überprüfen Sie den Druck an beiden Reifen und pumpen Sie sie gegebenenfalls auf."
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":true,
+          "uid":10,
+          "title":"Elektronik OK",
+          "description":"Überprüfen Sie, ob der Vélocomputer funktioniert und alle Fahrstufen funktionieren"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":true,
+          "uid":37,
+          "title":"Zusätzliche Batterie aufladen",
+          "description":"Zusätzliche Batterie geladen und bereit"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":17,
+          "title":"Tretlager prüfen",
+          "description":"Drehen Sie die Pedale mit dem Vélo auf dem Véloständer, idealerweise mit abgenommener Kette, und achten Sie auf Knirschen."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":20,
+          "title":"Bremsbeläge prüfen",
+          "description":"Überprüfen Sie die Bremsbeläge bei ausgebautem Rad rundum, da sie sich ungleichmässig abnutzen und von oben gut aussehen können, aber darunter eine Katastrophe sind."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":19,
+          "title":"Bremsscheibe sicher befestigt",
+          "description":"Überprüfen Sie, ob die Scheibenschrauben oder der Sicherungsring richtig angezogen sind."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":14,
+          "title":"Kettenblatt prüfen",
+          "description":"Kettenblattschrauben oder Sicherungsring angezogen"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":13,
+          "title":"Stollen + Schuhe prüfen",
+          "description":"SPD-Stollen sicher in den Schuhen und Pedalverbindung funktioniert"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":26,
+          "title":"Cockpit prüfen",
+          "description":"Überprüfen Sie, ob alle Hebel und Schalthebel befestigt sind."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":15,
+          "title":"Kurbelschrauben prüfen",
+          "description":"Kurbelschrauben angezogen"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":16,
+          "title":"Kurbel vorgespannt prüfen (falls erforderlich)",
+          "description":"Kurbeln vorgespannt (falls vom Kurbelsatz erforderlich)"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":31,
+          "title":"Dropper Post prüfen",
+          "description":"Sattelstütze funktioniert einwandfrei (hoch, runter, bleibt in Position)"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":27,
+          "title":"Dropper-Hebel prüfen",
+          "description":"Dropper-Hebel funktioniert reibungslos"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":22,
+          "title":"Freilauf prüfen",
+          "description":"Überprüfen Sie, ob der Freilauf/die Kassette funktioniert und keine ungewöhnlichen Geräusche oder Spiel macht."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":25,
+          "title":"Steuersatzvorspannung prüfen",
+          "description":"Stellen Sie sicher, dass der Steuersatz vorgespannt und die Schraube richtig angezogen ist. Tun Sie dies, bevor Sie den Vorbau und die Frontplatte überprüfen."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":true,
+          "uid":38,
+          "title":"Motorschrauben prüfen",
+          "description":"Motorschrauben fest"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":12,
+          "title":"Pedale prüfen",
+          "description":"Pedale sicher ohne Spiel + Pedalstifte vorhanden"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":29,
+          "title":"Sattelschrauben prüfen",
+          "description":"Sattelschrauben angezogen"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":30,
+          "title":"Sattelstützenschrauben prüfen",
+          "description":"Sattelstützenschrauben angezogen"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":23,
+          "title":"Speichen prüfen",
+          "description":"Überprüfen Sie, ob die Speichenspannung an den Rädern ähnlich ist."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":24,
+          "title":"Vorbau- und Frontplattenschrauben prüfen",
+          "description":"Stellen Sie sicher, dass die Vorbau- und Frontplattenschrauben richtig angezogen sind. Tun Sie dies nach der Überprüfung der Steuersatzvorspannung."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":33,
+          "title":"Federung auf Sauberkeit prüfen",
+          "description":"Nirgendwo austretendes Öl"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":34,
+          "title":"Federung auf Geräusche prüfen",
+          "description":"Keine Geräusche"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":32,
+          "title":"Federung prüfen",
+          "description":"bewegt sich frei und mit dem richtigen Druck"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":18,
+          "title":"Reifendichtmittel prüfen",
+          "description":"Rad schütteln und auf Flüssigkeit hören. Wenn nicht, Dichtmittel nachfüllen."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":21,
+          "title":"Radlager prüfen",
+          "description":"Drehen sich die Räder frei, ohne Schleifgeräusche?"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":28,
+          "title":"Prüfen, ob die Bremsen entlüftet werden müssen",
+          "description":"Überprüfen Sie, ob die Bremsen nicht „gepumpt“ werden müssen, damit sie nicht an den Lenker ziehen."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":35,
+          "title":"Federung schmieren",
+          "description":"Standrohre schmieren"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":true,
+          "uid":36,
+          "title":"Keine Geräusche vom Antrieb",
+          "description":"Der Antrieb ist ruhig, ohne Geräusche, Klackern oder Schleifen."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":11,
+          "title":"Schalthebel / Kabel funktionieren reibungslos",
+          "description":"Überprüfen Sie, ob Schalthebel und Kabel reibungslos funktionieren, und ersetzen Sie sie bei Bedarf."
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":45,
+          "title":"BB-Lager glatt",
+          "description":"BB-Lager glatt und geschmiert"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":48,
+          "title":"Bremsen entlüften",
+          "description":"Bremsen entlüften"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":46,
+          "title":"Kette ist nicht zu abgenutzt",
+          "description":"Kette nicht über .5 (wenn ja, gesamte Antriebseinheit vor dem Urlaub ersetzen - Kette, Kassette, Kettenblatt)"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":true,
+          "uid":53,
+          "title":"Elektrische Kabel überprüfen",
+          "description":"Elektrische Kabel alle mit glattem Lauf und ohne Knicke"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":true,
+          "uid":51,
+          "title":"Erwägen Sie den Wiederaufbau von Motor/Lagern",
+          "description":"Wenn ausserhalb der Garantie, erwägen Sie den Wiederaufbau von Motor/Lagern an Orten wie dem E-Bike-Motorzentrum"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":42,
+          "title":"Griffe OK",
+          "description":"Griffe nicht übermässig abgenutzt"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":44,
+          "title":"Steuersatzlager glatt",
+          "description":"Steuersatzlager glatt und geschmiert"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":49,
+          "title":"Bremssättelkolben schmieren",
+          "description":"Bremssättelkolben schmieren"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":43,
+          "title":"Schwenklager glatt",
+          "description":"Schwenklager glatt und frei beweglich, und geschmiert"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":40,
+          "title":"Felgen sind in Ordnung",
+          "description":"Überprüfen Sie die Felgen auf Risse oder Dellen - wenn ja, vor dem Urlaub ersetzen"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":47,
+          "title":"Federung warten",
+          "description":"Federung gewartet (könnte nur ein Unterteil-/Luftdosenservice sein, aber besser ein vollständiger Wiederaufbau von einer seriösen Quelle, z.B. TFT, J-tech, Silberfisch (Fuchs) usw.)"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":true,
+          "uid":52,
+          "title":"Zusätzliche Batterie mitnehmen",
+          "description":"Zusätzliche Batterie (oder hat die aktuelle Batterie einen guten Zustand für grosse Tage)"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":41,
+          "title":"Reifen OK",
+          "description":"Reifen nicht übermässig abgenutzt oder mit fehlenden Knöpfen"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":true,
+          "uid":50,
+          "title":"Garantie jetzt nutzen",
+          "description":"Probleme, die es wert sind, vor dem Urlaub garantiert zu werden?"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":39,
+          "title":"Radlager drehen sich reibungslos",
+          "description":"Überprüfen Sie, ob sich die Radlager reibungslos drehen, ersetzen Sie sie bei Bedarf"
+      }
   ]
 }

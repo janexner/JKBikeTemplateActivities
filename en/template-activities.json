@@ -241,7 +241,7 @@
       {
           "rideLevel":2,
           "title":"Check whether brakes need bleeding",
-          "description":"Check brakes don't need to be ‘pumped’ to stop them pulling to the bars",
+          "description":"Check brakes don't need to be 'pumped' to stop them pulling to the bars",
           "isEBikeSpecific":false,
           "uid":28
       },
@@ -339,7 +339,7 @@
       {
           "rideLevel":3,
           "title":"Service Suspension",
-          "description":"Suspension serviced (could be just a lowers/air can service, but better a full rebuild from reputable source e.g. TFT, J-tech, silverfish (fox) etc)",
+          "description":"Suspension serviced (could be just a lowers/air can service, but better a full rebuild from reputable source.",
           "isEBikeSpecific":false,
           "uid":47
       },
@@ -360,7 +360,7 @@
       {
           "rideLevel":3,
           "title":"Use warranty now",
-          "description":"Issues worth warrantying before holiday?",
+          "description":"Issues worth warrantying before holiday? Motor? Suspension? Anything else?",
           "isEBikeSpecific":true,
           "uid":50
       },

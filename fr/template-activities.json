@@ -1,200 +1,375 @@
 {
-  "templateActivities": [
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": true,
-      "uid": 9,
-      "title": "Batterie correctement installée",
-      "description": "Assurez-vous que la batterie et le couvercle sont correctement montés et verrouillés"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 2,
-      "title": "Test de cognement des freins",
-      "description": "Tirez sur les deux freins et faites basculer le vélo d'avant en arrière pour tester les cognements"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 6,
-      "title": "Chaîne lubrifiée",
-      "description": "Vérifiez que la chaîne est lubrifiée et appliquez à nouveau si nécessaire"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": true,
-      "uid": 8,
-      "title": "Charger la batterie",
-      "description": "Vérifiez le niveau de la batterie et chargez-la si nécessaire"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 3,
-      "title": "Vérifier les axes",
-      "description": "Vérifiez que les deux axes sont correctement installés et serrés"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 5,
-      "title": "Vérifier la tige de selle télescopique",
-      "description": "Vérifiez que la tige de selle télescopique monte, descend et reste là où elle devrait"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 7,
-      "title": "Vérifier les vitesses",
-      "description": "Vérifiez que les vitesses sont correctement indexées et que tous les rapports peuvent être utilisés"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 4,
-      "title": "Vérifier le dérailleur arrière",
-      "description": "Vérifiez que le dérailleur arrière est solidement fixé et n'est ni plié ni endommagé"
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": false,
-      "uid": 1,
-      "title": "Vérifier/régler la pression des pneus",
-      "description": "Vérifiez la pression des deux pneus et gonflez-les si nécessaire."
-    },
-    {
-      "rideLevel": 1,
-      "isEBikeSpecific": true,
-      "uid": 10,
-      "title": "Électronique OK",
-      "description": "Vérifiez que l'ordinateur de vélo fonctionne et que tous les niveaux de conduite fonctionnent"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": true,
-      "uid": 37,
-      "title": "Charger la batterie supplémentaire",
-      "description": "Batterie supplémentaire chargée et prête"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 17,
-      "title": "Vérifier le boîtier de pédalier",
-      "description": "Tourner les pédales avec le vélo sur le support de vélo idéalement avec la chaîne retirée, écouter et sentir le grincement"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 20,
-      "title": "Vérifier les plaquettes de frein",
-      "description": "Vérifiez les plaquettes de frein avec la roue sortie, tout autour des plaquettes, car elles peuvent s'user de manière inégale et sembler correctes du haut mais être une catastrophe en dessous"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 19,
-      "title": "Vérifier que le disque de frein est solidement fixé",
-      "description": "Vérifiez que les boulons du disque ou la bague de verrouillage sont correctement serrés"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 14,
-      "title": "Vérifier le plateau",
-      "description": "Boulons de plateau ou bague de verrouillage serrés"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 13,
-      "title": "Vérifier les cales et les chaussures",
-      "description": "Cales SPD bien fixées dans les chaussures et connexion aux pédales fonctionnelle"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 26,
-      "title": "Vérifier le cockpit",
-      "description": "Vérifiez que tous les leviers et manettes sont bien fixés"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 15,
-      "title": "Vérifier les boulons de manivelle",
-      "description": "Boulons de manivelle serrés"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 16,
-      "title": "Vérifier la précontrainte de la manivelle (si nécessaire)",
-      "description": "Manivelles précontraintes (si requis par le pédalier)"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 31,
-      "title": "Vérifier la tige de selle télescopique",
-      "description": "La tige de selle fonctionne correctement (monte, descend, reste en position)"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 27,
-      "title": "Vérifier le levier de la tige de selle télescopique",
-      "description": "Le levier de la tige de selle télescopique fonctionne en douceur"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 22,
-      "title": "Vérifier le corps de roue libre",
-      "description": "Vérifiez que le corps de roue libre/la cassette fonctionne et ne fait pas de bruits ou de jeux inhabituels"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 25,
-      "title": "Vérifier la précontrainte du jeu de direction",
-      "description": "Assurez-vous que le jeu de direction est précontraint et que le boulon est correctement serré. Faites-le avant de vérifier la potence et la plaque frontale."
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": true,
-      "uid": 38,
-      "title": "Vérifier les boulons du moteur",
-      "description": "Boulons du moteur sécurisés"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 12,
-      "title": "Vérifier les pédales",
-      "description": "Pédales sécurisées sans jeu + goupilles de pédale en place"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 29,
-      "title": "Vérifier les boulons de selle",
-      "description": "Boulons de selle serrés"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 30,
-      "title": "Vérifier les boulons de tige de selle",
-      "description": "Boulons de tige de selle serrés"
-    },
-    {
-      "rideLevel": 2,
-      "isEBikeSpecific": false,
-      "uid": 23,
-      "title": "Vérifier les rayons",
-      "description": "Vérifiez que la tension des rayons est similaire autour des roues"
-    }
+  "templateActivities":[
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":true,
+          "uid":9,
+          "title":"Batterie correctement installée",
+          "description":"Assurez-vous que la batterie et le couvercle sont solidement fixés et verrouillés"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":2,
+          "title":"Test de cognement des freins",
+          "description":"Tirez sur les deux freins et faites basculer le vélo d'avant en arrière pour tester les cognements"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":6,
+          "title":"Chaîne lubrifiée",
+          "description":"Vérifiez que la chaîne est lubrifiée et appliquez-la à nouveau si nécessaire"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":true,
+          "uid":8,
+          "title":"Charger la batterie",
+          "description":"Vérifiez le niveau de la batterie et chargez-la si nécessaire"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":3,
+          "title":"Vérifier les essieux",
+          "description":"Vérifiez que les deux essieux sont correctement installés et serrés"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":5,
+          "title":"Vérifier la tige de selle télescopique",
+          "description":"Vérifiez que la tige de selle télescopique monte, descend et reste là où elle doit"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":7,
+          "title":"Vérifier les vitesses",
+          "description":"Vérifiez que les vitesses sont correctement indexées et que tous les rapports peuvent être utilisés"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":4,
+          "title":"Vérifier le dérailleur arrière",
+          "description":"Vérifiez que le mécanisme arrière est solidement fixé et n'est ni plié ni endommagé"
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":false,
+          "uid":1,
+          "title":"Vérifier/régler la pression des pneus",
+          "description":"Vérifiez la pression des deux pneus et gonflez-les si nécessaire."
+      },
+      {
+          "rideLevel":1,
+          "isEBikeSpecific":true,
+          "uid":10,
+          "title":"Électronique OK",
+          "description":"Vérifiez que l'ordinateur du vélo fonctionne et que tous les niveaux de conduite fonctionnent"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":true,
+          "uid":37,
+          "title":"Charger la batterie supplémentaire",
+          "description":"Batterie supplémentaire chargée et prête"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":17,
+          "title":"Vérifier le boîtier de pédalier",
+          "description":"Tournez les pédales avec le vélo sur le support de vélo, idéalement avec la chaîne retirée, écoutez et sentez le grincement"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":20,
+          "title":"Vérifier les plaquettes de frein",
+          "description":"Vérifiez les plaquettes de frein avec la roue sortie, tout autour des plaquettes, car elles peuvent s'user de manière inégale et sembler correctes du haut mais être un désastre en dessous"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":19,
+          "title":"Vérifier que le disque de frein est solidement fixé",
+          "description":"Vérifiez que les boulons du disque ou la bague de verrouillage sont correctement serrés"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":14,
+          "title":"Vérifier le plateau",
+          "description":"Boulons de plateau ou bague de verrouillage serrés"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":13,
+          "title":"Vérifier les cales + chaussures",
+          "description":"Cales SPD bien fixées dans les chaussures et connexion de la pédale fonctionnelle"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":26,
+          "title":"Vérifier le cockpit",
+          "description":"Vérifiez que tous les leviers et manettes sont bien fixés"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":15,
+          "title":"Vérifier les boulons de manivelle",
+          "description":"Boulons de manivelle serrés"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":16,
+          "title":"Vérifier la précontrainte de la manivelle (si nécessaire)",
+          "description":"Manivelles précontraintes (si requis par le pédalier)"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":31,
+          "title":"Vérifier la tige de selle télescopique",
+          "description":"La tige de selle fonctionne correctement (haut, bas, reste en position)"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":27,
+          "title":"Vérifier le levier de tige de selle télescopique",
+          "description":"Le levier de tige de selle télescopique fonctionne correctement"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":22,
+          "title":"Vérifier le corps de roue libre",
+          "description":"Vérifiez que le corps de roue libre/la cassette fonctionne et ne fait pas de bruits ou de jeux inhabituels"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":25,
+          "title":"Vérifier la précontrainte du jeu de direction",
+          "description":"Assurez-vous que le jeu de direction est précontraint et que le boulon est correctement serré. Faites-le avant de vérifier la potence et la plaque frontale."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":true,
+          "uid":38,
+          "title":"Vérifier les boulons du moteur",
+          "description":"Boulons du moteur sécurisés"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":12,
+          "title":"Vérifier les pédales",
+          "description":"Pédales sécurisées sans jeu + goupilles de pédale en place"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":29,
+          "title":"Vérifier les boulons de selle",
+          "description":"Boulons de selle serrés"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":30,
+          "title":"Vérifier les boulons de tige de selle",
+          "description":"Boulons de tige de selle serrés"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":23,
+          "title":"Vérifier les rayons",
+          "description":"Vérifiez que la tension des rayons est similaire autour des roues"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":24,
+          "title":"Vérifier les boulons de potence et de plaque frontale",
+          "description":"Assurez-vous que les boulons de potence et de plaque frontale sont correctement serrés. Faites-le après avoir vérifié la précontrainte du jeu de direction."
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":33,
+          "title":"Vérifier que la suspension est propre",
+          "description":"Pas d'huile qui suinte de nulle part"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":34,
+          "title":"Vérifier que la suspension est silencieuse",
+          "description":"Pas de bruits de grincement"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":32,
+          "title":"Vérifier que la suspension fonctionne",
+          "description":"se déplace librement et correctement mis sous pression"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":18,
+          "title":"Vérifier le liquide préventif",
+          "description":"Secouez la roue et écoutez le liquide. Sinon, recharger le liquide préventif"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":21,
+          "title":"Vérifier les roulements de roue",
+          "description":"Les roues tournent-elles librement, sans bruits de grincement ?"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":28,
+          "title":"Vérifier si les freins doivent être purgés",
+          "description":"Vérifiez que les freins n'ont pas besoin d'être « pompés » pour les empêcher de tirer sur les barres"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":35,
+          "title":"Lubrifier la suspension",
+          "description":"Lubrifier les fourreaux"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":true,
+          "uid":36,
+          "title":"Pas de bruit du lecteur",
+          "description":"La conduite est douce, sans bruits, cognements ou grincements"
+      },
+      {
+          "rideLevel":2,
+          "isEBikeSpecific":false,
+          "uid":11,
+          "title":"Levier de vitesses / câble fonctionne correctement",
+          "description":"Vérifiez que tous les leviers et manettes sont bien fixés"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":45,
+          "title":"Roulements BB lisses",
+          "description":"Roulements BB lisses et graissés"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":48,
+          "title":"Purger les freins",
+          "description":"Purger les freins"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":46,
+          "title":"La chaîne n'est pas trop usée",
+          "description":"Chaîne pas au-delà de .5 (si c'est le cas, remplacer toute la transmission avant les vacances - chaîne, cassette, plateau)"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":true,
+          "uid":53,
+          "title":"Vérifier les câbles électriques",
+          "description":"Câbles électriques tous avec une course fluide et sans plis"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":true,
+          "uid":51,
+          "title":"Envisager de reconstruire le moteur/les roulements",
+          "description":"Si hors garantie, envisager de reconstruire le moteur/les roulements dans des endroits comme le centre de moteurs ebike"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":42,
+          "title":"Poignées OK",
+          "description":"Poignées pas trop usées"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":44,
+          "title":"Roulements de direction lisses",
+          "description":"Roulements de direction lisses et graissés"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":49,
+          "title":"Lubrifier les pistons d'étrier",
+          "description":"Lubrifier les pistons d'étrier"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":43,
+          "title":"Roulements de pivot lisses",
+          "description":"Roulements de pivot lisses et se déplacent librement, et graissés"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":40,
+          "title":"Les jantes sont en bon état",
+          "description":"Vérifiez les jantes pour des fissures ou des bosses - si c'est le cas, remplacer avant les vacances"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":47,
+          "title":"Service de suspension",
+          "description":"Suspension entretenue (cela pourrait être juste un service de bas/air, mais mieux une reconstruction complète d'une source réputée, par exemple TFT, J-tech, silverfish (fox), etc.)"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":true,
+          "uid":52,
+          "title":"Prendre une batterie supplémentaire",
+          "description":"Batterie supplémentaire (ou la batterie actuelle est-elle en bon état pour les grands jours)"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":41,
+          "title":"Pneus OK",
+          "description":"Pneus pas trop usés ou avec des boutons manquants"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":true,
+          "uid":50,
+          "title":"Utiliser la garantie maintenant",
+          "description":"Problèmes valant la peine d'être garantis avant les vacances?"
+      },
+      {
+          "rideLevel":3,
+          "isEBikeSpecific":false,
+          "uid":39,
+          "title":"Les roulements de roue tournent en douceur",
+          "description":"Vérifiez si les roulements de roue tournent en douceur, remplacez-les si nécessaire"
+      }
   ]
 }
