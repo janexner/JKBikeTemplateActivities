@@ -19,14 +19,14 @@
           "isEBikeSpecific":false,
           "uid":6,
           "title":"Kette geschmiert",
-          "description":"Überprüfen Sie, ob die Kette geschmiert ist, und tragen Sie sie bei Bedarf erneut auf"
+          "description":"Überprüfen Sie, ob die Kette geschmiert ist, und schmieren Sie bei Bedarf nach"
       },
       {
           "rideLevel":1,
           "isEBikeSpecific":true,
           "uid":8,
           "title":"Batterie aufladen",
-          "description":"Überprüfen Sie den Batteriestand und laden Sie ihn bei Bedarf auf"
+          "description":"Überprüfen Sie den Batteriestand und laden Sie bei Bedarf auf"
       },
       {
           "rideLevel":1,
@@ -40,7 +40,7 @@
           "isEBikeSpecific":false,
           "uid":5,
           "title":"Dropper Post prüfen",
-          "description":"Überprüfen Sie, ob sich die Dropper Post nach oben und unten bewegt und dort bleibt, wo sie soll"
+          "description":"Überprüfen Sie, ob sich der Dropper Post nach oben und unten bewegt und dort bleibt, wo er soll"
       },
       {
           "rideLevel":1,
@@ -89,7 +89,7 @@
           "isEBikeSpecific":false,
           "uid":20,
           "title":"Bremsbeläge prüfen",
-          "description":"Überprüfen Sie die Bremsbeläge bei ausgebautem Rad rundum, da sie sich ungleichmässig abnutzen und von oben gut aussehen können, aber darunter eine Katastrophe sind."
+          "description":"Überprüfen Sie die Bremsbeläge bei ausgebautem Rad rundum, da sie sich ungleichmässig abnutzen können."
       },
       {
           "rideLevel":2,
@@ -152,7 +152,7 @@
           "isEBikeSpecific":false,
           "uid":22,
           "title":"Freilauf prüfen",
-          "description":"Überprüfen Sie, ob der Freilauf/die Kassette funktioniert und keine ungewöhnlichen Geräusche oder Spiel macht."
+          "description":"Überprüfen Sie, ob der Freilauf/die Kassette funktioniert und keine ungewöhnlichen Geräusche macht oder Spiel hat."
       },
       {
           "rideLevel":2,
@@ -194,7 +194,7 @@
           "isEBikeSpecific":false,
           "uid":23,
           "title":"Speichen prüfen",
-          "description":"Überprüfen Sie, ob die Speichenspannung an den Rädern ähnlich ist."
+          "description":"Überprüfen Sie, ob die Speichenspannung an den Rädern rundum ähnlich ist."
       },
       {
           "rideLevel":2,
@@ -243,7 +243,7 @@
           "isEBikeSpecific":false,
           "uid":28,
           "title":"Prüfen, ob die Bremsen entlüftet werden müssen",
-          "description":"Überprüfen Sie, ob die Bremsen nicht „gepumpt“ werden müssen, damit sie nicht an den Lenker ziehen."
+          "description":"Überprüfen Sie, ob die Bremsen nicht 'gepumpt' werden müssen, damit sie nicht an den Lenker ziehen."
       },
       {
           "rideLevel":2,
@@ -299,7 +299,7 @@
           "isEBikeSpecific":true,
           "uid":51,
           "title":"Erwägen Sie den Wiederaufbau von Motor/Lagern",
-          "description":"Wenn ausserhalb der Garantie, erwägen Sie den Wiederaufbau von Motor/Lagern an Orten wie dem E-Bike-Motorzentrum"
+          "description":"Wenn ausserhalb der Garantie, erwägen Sie den Wiederaufbau von Motor/Lagern beim Fachhändler"
       },
       {
           "rideLevel":3,
@@ -341,7 +341,7 @@
           "isEBikeSpecific":false,
           "uid":47,
           "title":"Federung warten",
-          "description":"Federung gewartet (könnte nur ein Unterteil-/Luftdosenservice sein, aber besser ein vollständiger Wiederaufbau von einer seriösen Quelle, z.B. TFT, J-tech, Silberfisch (Fuchs) usw.)"
+          "description":"Federung gewartet (könnte nur ein Unterteil-/Luftdosenservice sein, aber besser ein vollständiger Wiederaufbau von einer seriösen Quelle.)"
       },
       {
           "rideLevel":3,
@@ -355,14 +355,14 @@
           "isEBikeSpecific":false,
           "uid":41,
           "title":"Reifen OK",
-          "description":"Reifen nicht übermässig abgenutzt oder mit fehlenden Knöpfen"
+          "description":"Reifen nicht übermässig abgenutzt oder mit fehlenden Stollen"
       },
       {
           "rideLevel":3,
           "isEBikeSpecific":true,
           "uid":50,
           "title":"Garantie jetzt nutzen",
-          "description":"Probleme, die es wert sind, vor dem Urlaub garantiert zu werden?"
+          "description":"Probleme, die es wert sind, vor dem Urlaub über Garantie geregelt zu werden?"
       },
       {
           "rideLevel":3,
